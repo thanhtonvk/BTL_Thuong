@@ -6,10 +6,10 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using ShopRoboHutBui.CallAPI;
-using ShopRoboHutBui.Models;
+using CuaHangMyPham.CallAPI;
+using CuaHangMyPham.Models;
 
-namespace ShopRoboHutBui.Controllers
+namespace CuaHangMyPham.Controllers
 {
     public class HoaDonsController : Controller
     {

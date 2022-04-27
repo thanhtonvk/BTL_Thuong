@@ -4,8 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-
-namespace ShopRoboHutBui.Controllers
+namespace CuaHangMyPham.Controllers
 {
     public class ValuesController : ApiController
     {

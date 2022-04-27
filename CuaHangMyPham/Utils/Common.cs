@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ShopRoboHutBui.Utils
+namespace CuaHangMyPham.Utils
 {
     public class Common
     {
-        public static string baseUrl = "https://localhost:44375/";
+        public static string baseUrl = "https://localhost:44329/";
     }
 }

@@ -8,13 +8,13 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using ShopRoboHutBui.Models;
+using CuaHangMyPham.Models;
 
-namespace ShopRoboHutBui.Controllers.api
+namespace CuaHangMyPham.Controllers.api
 {
     public class HangsController : ApiController
     {
-        private CuaHangRoBotHutBuiEntities db = new CuaHangRoBotHutBuiEntities();
+        private CuaHangBanMyPhamEntities db = new CuaHangBanMyPhamEntities();
 
         // GET: api/Hangs
         public IQueryable<Hang> GetHangs()
