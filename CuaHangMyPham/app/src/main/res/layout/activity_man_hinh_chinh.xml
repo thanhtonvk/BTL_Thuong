@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ManHinhChinhActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/blue"
+        android:drawableLeft="@drawable/cosmetics"
+        android:drawableRight="@drawable/makeup"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Cửa hàng mỹ phẩm"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnMua"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bogoc"
+            android:backgroundTint="@color/blue"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/beauty" />
+
+        <ImageButton
+            android:id="@+id/btnGioHang"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bogoc"
+            android:backgroundTint="@color/blue"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/trolley" />
+
+    </LinearLayout>
+</RelativeLayout>
